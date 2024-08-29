@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pafpaf"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+11-->[androidx.biometric:biometric:1.1.0] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/eb65d1647e95073386ea1ec0025d3357/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+11-->[androidx.biometric:biometric:1.1.0] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/eb65d1647e95073386ea1ec0025d3357/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+12    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+12-->[androidx.biometric:biometric:1.1.0] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/eb65d1647e95073386ea1ec0025d3357/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+12-->[androidx.biometric:biometric:1.1.0] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/eb65d1647e95073386ea1ec0025d3357/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+13
+14    <permission
+14-->[androidx.core:core:1.13.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/7222731a18d910061b3f2f601c2db4e1/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.pafpaf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/7222731a18d910061b3f2f601c2db4e1/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/7222731a18d910061b3f2f601c2db4e1/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.pafpaf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/7222731a18d910061b3f2f601c2db4e1/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/7222731a18d910061b3f2f601c2db4e1/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:5:5-27:19
+21        android:name="com.example.pafpaf.Application"
+21-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:6:9-36
+22        android:allowBackup="true"
+22-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:7:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.13.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/7222731a18d910061b3f2f601c2db4e1/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:8:9-65
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:9:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:10:9-43
+28        android:label="@string/app_name"
+28-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:11:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:12:9-54
+30        android:supportsRtl="true"
+30-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:13:9-35
+31        android:theme="@style/Theme.PafPaf" >
+31-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:14:9-44
+32        <activity
+32-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:16:9-26:20
+33            android:name="com.example.pafpaf.MainActivity"
+33-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:17:13-41
+34            android:exported="true"
+34-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:18:13-36
+35            android:label="@string/app_name"
+35-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:19:13-45
+36            android:theme="@style/Theme.PafPaf" >
+36-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:20:13-48
+37            <intent-filter>
+37-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:22:17-69
+38-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:24:17-77
+40-->/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app/src/main/AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c6cecae64d5a74198caeb5b300797043/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c6cecae64d5a74198caeb5b300797043/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.pafpaf.androidx-startup"
+46-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c6cecae64d5a74198caeb5b300797043/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c6cecae64d5a74198caeb5b300797043/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c6cecae64d5a74198caeb5b300797043/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c6cecae64d5a74198caeb5b300797043/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c6cecae64d5a74198caeb5b300797043/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.3.0] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/802ac1038f01b3aee2d02782f6e24b09/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.3.0] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/802ac1038f01b3aee2d02782f6e24b09/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.3.0] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/802ac1038f01b3aee2d02782f6e24b09/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+55-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+56                android:value="androidx.startup" />
+56-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+57        </provider>
+58
+59        <service
+59-->[androidx.room:room-runtime:2.6.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c0778eea66c4da94f18c2d42f5e76f2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+60            android:name="androidx.room.MultiInstanceInvalidationService"
+60-->[androidx.room:room-runtime:2.6.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c0778eea66c4da94f18c2d42f5e76f2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+61            android:directBootAware="true"
+61-->[androidx.room:room-runtime:2.6.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c0778eea66c4da94f18c2d42f5e76f2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+62            android:exported="false" />
+62-->[androidx.room:room-runtime:2.6.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/c0778eea66c4da94f18c2d42f5e76f2f/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+63
+64        <receiver
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+65            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+66            android:directBootAware="false"
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+67            android:enabled="true"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+68            android:exported="true"
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+69            android:permission="android.permission.DUMP" >
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+70            <intent-filter>
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+71                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+72            </intent-filter>
+73            <intent-filter>
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+74                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+75            </intent-filter>
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+77                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+80                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/luisalfredomunguiaanaya/.gradle/caches/transforms-4/552225fb1723a8084d19174afcf16d80/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+81            </intent-filter>
+82        </receiver>
+83    </application>
+84
+85</manifest>

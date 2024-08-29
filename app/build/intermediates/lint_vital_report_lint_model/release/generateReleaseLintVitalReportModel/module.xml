@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/luisalfredomunguiaanaya/AndroidStudioProjects/PafPaf/app"
+    name=":app"
+    type="APP"
+    maven="PafPaf:app:unspecified"
+    agpVersion="8.5.2"
+    buildFolder="build"
+    bootClassPath="/Users/luisalfredomunguiaanaya/Library/Android/sdk/platforms/android-34/android.jar:/Users/luisalfredomunguiaanaya/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
