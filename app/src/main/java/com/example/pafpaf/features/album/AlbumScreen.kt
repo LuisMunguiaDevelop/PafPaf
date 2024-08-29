@@ -290,7 +290,7 @@ fun PreviewAlbumContent() {
     AlbumScreenContent(
         album = Album(id = 1, title = "titulo", isSelected = false),
         uiState = AlbumUiState(
-            album = Album(title = "Angie"),
+            album = Album(title = "Album 1"),
             photoList = listOf(
                 Photo(),
                 Photo(),
